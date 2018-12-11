@@ -1,0 +1,30 @@
+﻿<Window x:Class="Accounts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Accounts"
+        mc:Ignorable="d"
+        Title="Accounts" Height="350" Width="845.085" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="removeBtn" Content="Remove" HorizontalAlignment="Left" Margin="734,120,0,0" VerticalAlignment="Top" Width="75" Click="removeBtn_Click"/>
+        <Button x:Name="setReviewsBtn" Content="Set review dates" HorizontalAlignment="Left" Margin="713,173,0,0" VerticalAlignment="Top" Width="96" Click="setReviewsBtn_Click"/>
+        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="734,281,0,0" VerticalAlignment="Top" Width="75" Click="addBtn_Click"/>
+        <ListBox x:Name="accountsLbx" HorizontalAlignment="Left" Height="163" Margin="16,83,0,0" VerticalAlignment="Top" Width="387" SelectionChanged="accountsLbx_SelectionChanged"/>
+        <TextBlock x:Name="detailsTxBlk" HorizontalAlignment="Left" Margin="477,83,0,0" TextWrapping="Wrap" Text="Details" VerticalAlignment="Top" Height="163" Width="135"/>
+        <CheckBox x:Name="currentChBx" Content="Current" HorizontalAlignment="Left" Margin="16,27,0,0" VerticalAlignment="Top" Click="filterCheckboxes_Click"/>
+        <CheckBox x:Name="savingsChBx" Content="Savings" HorizontalAlignment="Left" Margin="107,27,0,0" VerticalAlignment="Top" Click="filterCheckboxes_Click"/>
+        <CheckBox x:Name="studentChBx" Content="Student" HorizontalAlignment="Left" Margin="198,27,0,0" VerticalAlignment="Top" Click="filterCheckboxes_Click"/>
+        <TextBox x:Name="searchTbx" HorizontalAlignment="Left" Height="23" Margin="319,25,0,0" TextWrapping="Wrap" Text="Search..." VerticalAlignment="Top" Width="84" PreviewKeyUp="searchTbx_PreviewKeyUp" GotFocus="searchTbx_GotFocus"/>
+        <TextBox x:Name="accountHolderTbx" HorizontalAlignment="Left" Height="23" Margin="16,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="accountHolderTbx_GotFocus"/>
+        <TextBox x:Name="accountNumberTbx" HorizontalAlignment="Left" Height="23" Margin="197,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="accountNumberTbx_GotFocus"/>
+        <TextBox x:Name="openingBalanceTbx" HorizontalAlignment="Left" Height="23" Margin="563,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotFocus="openingBalanceTbx_GotFocus"/>
+        <ComboBox x:Name="accountTypeCbx" HorizontalAlignment="Left" Margin="376,281,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="listofaccountsTblk" HorizontalAlignment="Left" Margin="16,60,0,0" TextWrapping="Wrap" Text="List of accounts" VerticalAlignment="Top" Width="98" FontSize="13.333" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="17,260,0,0" TextWrapping="Wrap" Text="Account holder" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="198,260,0,0" TextWrapping="Wrap" Text="Account number" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="564,260,0,0" TextWrapping="Wrap" Text="Opening balance" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="accountdetailsTblk" HorizontalAlignment="Left" Margin="468,60,0,0" TextWrapping="Wrap" Text="Account details:" VerticalAlignment="Top" Width="114" FontSize="13.333" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

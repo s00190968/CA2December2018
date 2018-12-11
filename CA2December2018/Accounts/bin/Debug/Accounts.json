@@ -1,0 +1,44 @@
+[
+  {
+    "AccountHolder": "Joe Bloggs",
+    "AccountNumber": "45670987",
+    "Balance": 1000.0,
+    "AccountType": "Current",
+    "reviewDate": "0001-01-01T00:00:00"
+  },
+  {
+    "AccountHolder": "Sally Jones",
+    "AccountNumber": "43470959",
+    "Balance": 500.0,
+    "AccountType": "Current",
+    "reviewDate": "2019-06-12T00:00:00+01:00"
+  },
+  {
+    "AccountHolder": "Joe Bloggs",
+    "AccountNumber": "90807652",
+    "Balance": 650.56,
+    "AccountType": "Savings",
+    "reviewDate": "2019-09-01T00:00:00+01:00"
+  },
+  {
+    "AccountHolder": "Milly Durcan",
+    "AccountNumber": "79530812",
+    "Balance": 250.0,
+    "AccountType": "Student",
+    "reviewDate": "0001-01-01T00:00:00"
+  },
+  {
+    "AccountHolder": "htysej",
+    "AccountNumber": "truu",
+    "Balance": 78867785.0,
+    "AccountType": "Current",
+    "reviewDate": "2019-02-16T00:00:00+00:00"
+  },
+  {
+    "AccountHolder": "name",
+    "AccountNumber": "65461646146548",
+    "Balance": 200.0,
+    "AccountType": "Savings",
+    "reviewDate": "0001-01-01T00:00:00"
+  }
+]

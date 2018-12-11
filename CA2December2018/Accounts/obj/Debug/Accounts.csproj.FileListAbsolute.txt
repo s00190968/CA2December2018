@@ -1,0 +1,17 @@
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Accounts.exe.config
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Accounts.exe
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Accounts.pdb
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.csprojResolveAssemblyReference.cache
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\MainWindow.g.cs
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\App.g.cs
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts_MarkupCompile.cache
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts_MarkupCompile.lref
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\MainWindow.baml
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.g.resources
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.Properties.Resources.resources
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.csproj.GenerateResource.Cache
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.exe
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\obj\Debug\Accounts.pdb
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\s00190968\Downloads\CA2December2018\Accounts\bin\Debug\Newtonsoft.Json.xml
